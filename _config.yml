@@ -28,22 +28,22 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
-  # behance: your_username
+social_media:
+    behance: anushkasaxena1
   # dribbble: your_username
-  # facebook: your_username
+    facebook: anushka.saxena.927543
   # hackerrank: your_username
-  # instagram: your_username
+    instagram: _anushkasaxena
   # keybase: your_username
-  # linkedin: your_username
+    linkedin: anushka-saxena-b40aa2165
   # mastodon: your_username
-  # medium: your_username
+    medium: coffeecoders
   # stackoverflow: your_user_id
   # telegram: your_username
-  # twitter: your_username
+    twitter: 3muchcoffee5me
   # unsplash: your_username
   # vk: your_username
-  # website: http://your_website_url
+    website: http://anushkasaxena.com
   # youtube: your_username
 
 topics:
