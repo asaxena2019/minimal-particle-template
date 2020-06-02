@@ -8,15 +8,39 @@
       {{ content }}
     </div>
 
-    <div class="my-6">
-      {% include projects.html %}
-    </div>
+    {% if site.portfolio %}
+      <div class="my-6">
+        {% include project-seen.html %}
+      </div>
+    {% endif %}
+
+    {% if site.experience %}
+      <div class="my-6">
+        {% include internandresearch.html %}
+      </div>
+    {% endif %}
+
+    {% if site.orgs %}
+      <div class="my-6">
+        {% include groups.html %}
+      </div>
+    {% endif %}
+
+    {% if site.events %}
+      <div class="my-6">
+        {% include eventsandawards.html %}
+      </div>
+    {% endif %}
 
     {% if site.topics %}
       <div class="my-6">
         {% include interests.html %}
       </div>
     {% endif %}
+
+    <div class="my-6">
+      {% include projects.html %}
+    </div>
 
     {% unless posts_total == 0 %}
       <div class="my-6">
@@ -38,11 +62,27 @@
           </div>
         {% endunless %}
 
-        {% include projects.html %}
+        {% if site.portfolio %}
+          {% include project-seen.html %}
+        {% endif %}
+
+        {% if site.experience %}
+          {% include internandresearch.html %}
+        {% endif %}
+
+        {% if site.organizations %}
+          {% include groups.html %}
+        {% endif %}
+
+        {% if site.events %}
+          {% include eventsandawards.html %}
+        {% endif %}
 
         {% if site.topics %}
           {% include interests.html %}
         {% endif %}
+
+        {% include projects.html %}
 
         {% unless posts_total == 0 %}
           {% include thoughts.html %}

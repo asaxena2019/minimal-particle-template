@@ -8,6 +8,8 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
+bio: Hi! 👋 My name is Anushka. I study engineering to build things that will help humans and society. I will be interning at Bank of America as a Global Technology Analyst Intern remotely this summer. Please feel free to look around and contact me at any of the links above.
+
 defaults:
   -
     scope:
@@ -24,12 +26,13 @@ projects:
   limit: 9
   exclude:
     archived: false
-    forks: true
+    forks: false
     projects:
     # - repo-name
 
 social_media:
     behance: anushkasaxena1
+    devpost: anushkasaxena2019
   # dribbble: your_username
     facebook: anushka.saxena.927543
   # hackerrank: your_username
@@ -46,13 +49,133 @@ social_media:
     website: http://anushkasaxena.com
   # youtube: your_username
 
-topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+portfolio:
+  - name: Henna Hands
+    web_url: https://www.behance.net/gallery/97934663/hand-modeling
+    image_url: 
+    description: Designed henna designs on hand models in Rhino 6.0 and Grasshopper using surface modelling and analytical geometry
+    height: 64
+    width: 64
 
-  - name: Web design
+  - name: Pokemon LED Lamp
+    web_url: https://asaxena2019.github.io/pokemon-lamp/
+    image_url: 
+    description: Designed an LED laser engraved Pokemon themed lamp on SolidWorks and Arduino
+    height: 64
+    width: 64
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Pac-Man 1.12
+    web_url: https://asaxena2019.github.io/termproject/
+    image_url: 
+    description: Programmed in Python a spin-off of Pac-Man with path finding ghosts, randomly generated maps, and side-scrolling boards
+    height: 64
+    width: 64
+
+  - name: Feed the Burghers
+    web_url: https://docs.google.com/presentation/d/1WD4Hb7N7vrbzsyrK_hBfRJQ5uq1ur7qLLiQBVR0iSB8/edit#slide=id.g35f391192_00
+    image_url: 
+    description: Designed an app in MIT App Inventor to connect economically disadvantaged people in Pittsburgh to food sources. Won Best Social Hack at HackCMU 2019
+    height: 64
+    width: 64
+
+  - name: Still
+    web_url: http://still-okay.herokuapp.com/
+    image_url: 
+    description: Created an app in XCode and website in HTMl, CSS, and Javascript that helps users deal with anxiety and stress for PennApps 2018
+    height: 64
+    width: 64
+
+  - name: Modelling the Forecast of Solar Energetic Particle Events
+    web_url: https://asaxena2019.github.io/Modelling-the-Forecast-of-Solar-Energetic-Particle-Events-Year-2/
+    image_url: 
+    description: Programmed a script in Java that forecasts the effects of solar phenomenon on Earth based on data from NASA satellites
+    height: 64
+    width: 64
+
+experience:
+  - name: Science Fair Department Intern @ GSMST
+    web_url: https://sites.google.com/gsmst.org/gsmstsciengfair/home
+    image_url: 
+    description: Senior Capstone Experience. Created this website that provided science fair resources and organized the school's annual science fair
+    height: 64
+    width: 64
+  
+  - name: Cisco High Extern @ Cisco
+    web_url: https://docs.google.com/presentation/d/1JqSZuD8PwCzQ6aMYjNkSGibQtbI0a-70MrDjWdpORhU/edit#slide=id.g3d28bd4c0a_3_9
+    image_url: 
+    description: Designed solutions to solve Atlanta's transportation industry using Cisco Technology and presented in front of Cisco leadership
+    height: 64
+    width: 64
+
+  - name: Research Assistant @ Department of Neurosurgery, Emory University
+    web_url: https://drive.google.com/file/d/0BwsuRuLuuDNjV1AtRU91Skh6QUQwVXBoTGlWbDlTQjRoNnNn/view?usp=sharing
+    image_url: 
+    description: Researched bioluminescent sources in marine animals to be used in optogenetic tools to solve neurotic illnesses such as epilepsy
+    height: 64
+    width: 64
+
+  - name: Research Assistant @ David G. Lynn Group, Emory University
+    web_url: https://docs.google.com/presentation/d/1oTsCLaj7-yhYdXtjtp273vPh7d7YVnFQqg8McCkQAQE/edit#slide=id.p13
+    image_url: 
+    description: Researched dynamic chemical networks and their importance in organic chemistry
+    height: 64
+    width: 64
+
+organizations:
+  - name: ScottyLabs
+    web_url: https://scottylabs.org/
+    image_url: 
+    description: Director of Events of the tech entrepreneurial club at CMU. Help plan Web Dev Weekend, a series of web development workshops, and TartanHacks, CMU's largest hackathon
+    height: 64
+    width: 64
+
+  - name: Robotics Club
+    web_url: https://roboticsclub.org/
+    image_url: 
+    description: Current secretary of the robotics club at CMU. Part of the mentorship committee to plan educational activities for our underclassmen
+    height: 64
+    width: 64
+
+events:
+  - name: Women in Cybersecurity Conference 2020
+    web_url: 
+    image_url: 
+    description: Received a scholarship to attend this conference on cybersecurity but did not go due to COVID-19
+    height: 64
+    width: 64
+  
+  - name: Jane Street Women in STEM 2019
+    web_url: https://www.linkedin.com/feed/update/urn:li:activity:6562450807134961664/
+    image_url: 
+    description: Visited Jane Street and learned about quantitative trading among approximately 80 other freshman girls
+    height: 64
+    width: 64
+  
+  - name: National Center for Women and Information Technology
+    web_url: https://www.aspirations.org/user/119641
+    image_url: 
+    description: Awarded NCWIT National Honorable Mention and Georgia Affiliate Winner for two years based on my achievements in computing and technology
+    height: 64
+    width: 64
+
+  - name: Georgia Junior Science and Humanities Symposium Oral Presenter 2017
+    web_url: https://drive.google.com/file/d/0BwsuRuLuuDNjV1AtRU91Skh6QUQwVXBoTGlWbDlTQjRoNnNn/view?usp=sharing
+    image_url: 
+    description: Presented on my research from the Department of Neurosurgery at Emory on optogenetics research
+    height: 64
+    width: 64
+
+  - name: Georgia Junior Science and Humanities Symposium Oral Presenter 2016
+    web_url: https://drive.google.com/file/d/0BwsuRuLuuDNjaDlfU280blM4N2RqQ3NTUUJpczZmSkhUcHY4/view?usp=sharing
+    image_url: 
+    description: Presented my data derived from NASA satellites on Coronal Mass Ejections year 1 and won best poster presenter
+    height: 64
+    width: 64
+
+#topics:
+ # - name: Full Stack
+   # web_url:
+   # image_url: 
+   # description: To become a better web app developer. Currently using Youtube and Linkedin Learning as learning resources
+   # height: 64
+   # width: 64
