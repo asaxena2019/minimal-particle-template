@@ -54,7 +54,14 @@
       {% include masthead.html metadata=true %}
     </div>
 
-    <div class="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0 bg-gray-light" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
+    <div class="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0 bg-color-gray" 
+    {% if site.style == 'dark' %} style="background-color: #2f363d !important"{% endif %}>
+
+      <div class="canvas">
+        <canvas id="canvas1"></canvas>
+        <script src="js/app.js"></script>
+      </div>
+      
       <div class="mx-auto" style="max-width: 900px;">
         {% unless content == ""  %}
           <div class="f4 {% if site.style == 'dark' %}text-white{% endif %} mb-6">
