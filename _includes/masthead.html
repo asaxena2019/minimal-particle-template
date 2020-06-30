@@ -1,3 +1,7 @@
+<!--Formats the masthead section (where all your introduction information is located)-->
+
+<!--Don't change anything in this file except the commented sections below-->
+
 {% if site.layout == 'stacked' %}
   {% assign metadata_styles = 'd-md-inline-block mx-3 mb-1 mb-md-0' %}
 {% else %}
@@ -52,17 +56,21 @@
       {% if user.hireable %}
         <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
       {% endif %}
-      <!--<a href="https://asaxena2019.github.io/about-me" class="text-underline text-bold">
+
+      <!--Insert separate about page here. You can create a Markdown about page by following this tutorial: https://lab.github.com/githubtraining/communicating-using-markdown-->
+      <a href="" class="text-underline text-bold">
         About Me
-      </a>-->
+      </a>
+
       <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
-        Hi! My name is Anushka. I am a sophomore majoring in electrical and computer engineering at Carnegie Mellon. I am currently expanding my skills in <b>software development</b>, <b>machine learning</b>, and <b>robotics</b>, and I'm hoping to break into <b>project management</b> in the near future.
-        Currently, I am exploring my interests in fintech by interning at <a href="https://www.bankofamerica.com/">Bank of America</a> as a Global Technology & Operations Analyst Intern remotely this summer. 
-        <br><br>Please feel free to reach out to me on any of the links above, and check out my resume below.
+        Include a short bio about who you are and where you work.
       </p>
-      <a href="https://drive.google.com/file/d/1K4ZTjCJQHX7kua9fIZfUuUYkzqcZRQZO/view?usp=sharing" class="text-underline text-bold">
+
+      <!--Provide link of your resume. I recommend uploading it to Google Drive-->
+      <a href="" class="text-underline text-bold">
         RESUME <br>
       </a>
+
     </div>
   {% endif %}
 </div>

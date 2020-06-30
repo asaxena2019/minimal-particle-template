@@ -14,6 +14,8 @@
   position: fixed;
 }
 
+//Change the format of the tags and tag container
+
 .tag {
   padding-left: 10px; 
   padding-right: 10px; 
@@ -30,6 +32,8 @@
     width: 100%;
     height: 100%;
 }
+
+//Formats the animation canvas
 
 .canvas {
   z-index: 1;

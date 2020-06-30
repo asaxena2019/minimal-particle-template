@@ -5,6 +5,8 @@ canvas.height = window.innerHeight;
 
 let particlesArray;
 
+// Remove all interactions with mouse. If interested, just uncomment the code!
+
 /*let mouse = {
   x: null,
   y: null,
@@ -30,7 +32,7 @@ class Particle {
   draw(){
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.size, 0, Math.PI*2, false);
-    ctx.fillStyle = "#C0C0C0";
+    ctx.fillStyle = "#C0C0C0"; //color of particle
     ctx.fill();
   }
 
@@ -70,9 +72,9 @@ function init(){
   let numberOfParticles = (canvas.height * canvas.width) / 10000;
   for (let i = 0; i < numberOfParticles; i++){
     let size = (Math.random()*5) + 1;
-    let x = (Math.random() * ((innerWidth - size * 10) - (size * 10)) + size * 10);
+    let x = (Math.random() * ((innerWidth - size * 10) - (size * 10)) + size * 10); //changes position
     let y = (Math.random() * ((innerHeight - size * 10) - (size * 10)) + size * 10);
-    let directionX = (Math.random()*3) - 1.5;
+    let directionX = (Math.random()*3) - 1.5; //changes speed
     let directionY = (Math.random()*3) - 1.5;
     let color = "#C5C5C5";
 
@@ -81,7 +83,7 @@ function init(){
 }
 
 function connect(){
-  let opacityValue = 1;
+  let opacityValue = 1; //opacity of connections
   for (let a = 0; a < particlesArray.length; a++){
     for (let b = a; b < particlesArray.length; b++) {
       let distance = ((particlesArray[a].x - particlesArray[b].x) * 
