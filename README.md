@@ -8,6 +8,8 @@ I forked this [repo](https://github.com/github/personal-website) and made some c
 
 Examples on how to edit and run the file is below. The files are also commented to explain how to edit.
 
+When you get to step 4 under Install Jekyll, if that code doesn't work, try the recommended solution in terminal.
+
 # Get started building your personal website
 
 ### Showcase your software development skills
