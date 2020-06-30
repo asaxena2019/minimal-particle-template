@@ -14,6 +14,23 @@
   position: fixed;
 }
 
+.tag {
+  padding-left: 10px; 
+  padding-right: 10px; 
+  background-color: #DCDCDC; 
+  color: #505050; 
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.tagContainer{
+    display: contents;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
 .canvas {
   z-index: 1;
 }

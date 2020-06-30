@@ -8,8 +8,6 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
-bio: Hi! 👋 My name is Anushka. I study engineering to build things that will help humans and society. I will be interning at Bank of America as a Global Technology Analyst Intern remotely this summer. Please feel free to look around and contact me at any of the links above.
-
 defaults:
   -
     scope:
@@ -50,55 +48,114 @@ social_media:
   # youtube: your_username
 
 portfolio:
+  - name: FakeNewsify
+    web_url: https://github.com/asaxena2019/sl-careers
+    image_url: 
+    description: Program that filters real and fake news and informs users on whether or not an article is clickbait for Same Home Different Hacks 2020
+    height: 64
+    width: 64
+    language:
+      - title: NumPy
+      - title: pandas
+      - title: Natural Language Toolkit
+      - title: MongoDB
+      - title: Flask
+      - title: Bootstrap
+      - title: HTML/CSS
+    date: June 2020
+
+  - name: ScottyLabs Career Page
+    web_url: https://github.com/asaxena2019/sl-careers
+    image_url:
+    description: Webpage of job, internship, scholarship, research, and event opportunities in technical fields to the ScottyLasbs community
+    height: 64
+    width: 64
+    language:
+      - title: React
+      - title: Material UI
+      - title: Node.js
+      - title: Google Sheets API
+      - title: HTML/CSS
+    date: May 2020 - Present
+
+  - name: Feed the Burghers
+    web_url: http://feedtheburghers.tech/
+    image_url: https://github.com/asaxena2019/asaxena2019.github.io/blob/master/_images/ftb.png?raw=true
+    description: App and website to connect economically disadvantaged people in Pittsburgh to food sources. Won Best Social Hack at HackCMU 2019
+    height: 64
+    width: 64
+    language: 
+      - title: MIT App Inventor
+      - title: HTML/CSS
+      - title: JavaScript
+      - title: Bootstrap
+    date: September 2019 - Present
+
   - name: Henna Hands
     web_url: https://www.behance.net/gallery/97934663/hand-modeling
     image_url: https://github.com/asaxena2019/asaxena2019.github.io/blob/master/_images/henna-hands.jpg?raw=true
-    description: Designed henna designs on hand models in Rhino 6.0 and Grasshopper using surface modelling and analytical geometry
+    description: Designs of henna on hand models using surface modelling and analytical geometry
     height: 75
     width: 100
+    language:
+      - title: Rhino 6.0
+      - title: Grasshoper
+    date: May 2020
 
   - name: Pokemon LED Lamp
     web_url: https://asaxena2019.github.io/pokemon-lamp/
     image_url: https://github.com/asaxena2019/asaxena2019.github.io/blob/master/_images/pokemon-lamp.JPG?raw=true
-    description: Designed an LED laser engraved Pokemon themed lamp on SolidWorks and Arduino
+    description: 3D-printed and laser engraved a Pokemon themed lamp powered by an Arduino and LED lights
     height: 100
     width: 150
+    language: 
+      - title: Arduino
+      - title: Solidworks
+      - title: Inkscape
+    date: March 2020
 
   - name: Pac-Man 1.12
     web_url: https://asaxena2019.github.io/termproject/
     image_url: https://github.com/asaxena2019/asaxena2019.github.io/blob/master/_images/term-project.png?raw=true
-    description: Programmed in Python a spin-off of Pac-Man with path finding ghosts, randomly generated maps, and side-scrolling boards
+    description: Spin-off of Pac-Man with path finding ghosts, randomly generated maps, and side-scrolling boards
     height: 100
     width: 150
-
-  - name: Feed the Burghers
-    web_url: https://docs.google.com/presentation/d/1WD4Hb7N7vrbzsyrK_hBfRJQ5uq1ur7qLLiQBVR0iSB8/edit#slide=id.g35f391192_00
-    image_url: https://github.com/asaxena2019/asaxena2019.github.io/blob/master/_images/ftb.png?raw=true
-    description: Designed an app in MIT App Inventor to connect economically disadvantaged people in Pittsburgh to food sources. Won Best Social Hack at HackCMU 2019
-    height: 64
-    width: 64
+    language: 
+      - title: Python
+    date: October 2019 - December 2019
 
   - name: Still
     web_url: http://still-okay.herokuapp.com/
     image_url: https://github.com/asaxena2019/asaxena2019.github.io/blob/master/_images/PennApps.JPG?raw=true
-    description: Created an app in XCode and website in HTMl, CSS, and Javascript that helps users deal with anxiety and stress for PennApps 2018
+    description: App that helps users deal with anxiety and stress for PennApps 2018
     height: 100
     width: 150
+    language: 
+      - title: XCode
+      - title: Swift
+      - title: DocuSign API
+      - title: HTML/CSS
+      - title: JavaScript
+    date: September 2018
 
   - name: Modelling the Forecast of Solar Energetic Particle Events
     web_url: https://asaxena2019.github.io/Modelling-the-Forecast-of-Solar-Energetic-Particle-Events-Year-2/
     image_url: https://github.com/asaxena2019/asaxena2019.github.io/blob/master/_images/sep.jpeg?raw=true
-    description: Programmed a script in Java that forecasts the effects of solar phenomenon on Earth based on data from NASA satellites
+    description: Program that forecasts the effects of solar phenomenon on Earth based on data from NASA satellites
     height: 70
     width: 75
+    language:
+      - title: Java
+    date: August 2016 - May 2018
 
 experience:
   - name: Science Fair Department Intern @ GSMST
     web_url: https://sites.google.com/gsmst.org/gsmstsciengfair/home
     image_url: https://github.com/asaxena2019/asaxena2019.github.io/blob/master/_images/gsmst.png?raw=true
     description: Senior Capstone Experience. Created this website that provided science fair resources and organized the school's annual science fair
-    height: 64
+    height: 75
     width: 64
+    date: August 2018 - May 2019
   
   - name: Cisco High Extern @ Cisco
     web_url: https://docs.google.com/presentation/d/1JqSZuD8PwCzQ6aMYjNkSGibQtbI0a-70MrDjWdpORhU/edit#slide=id.g3d28bd4c0a_3_9
@@ -106,6 +163,7 @@ experience:
     description: Designed solutions to solve Atlanta's transportation industry using Cisco Technology and presented in front of Cisco leadership
     height: 64
     width: 64
+    date: June 2018
 
   - name: Research Assistant @ Department of Neurosurgery, Emory University
     web_url: https://drive.google.com/file/d/0BwsuRuLuuDNjV1AtRU91Skh6QUQwVXBoTGlWbDlTQjRoNnNn/view?usp=sharing
@@ -113,6 +171,7 @@ experience:
     description: Researched bioluminescent sources in marine animals to be used in optogenetic tools to solve neurotic illnesses such as epilepsy
     height: 64
     width: 64
+    date: June 2016 - December 2016, July 2018 - August 2018
 
   - name: Research Assistant @ David G. Lynn Group, Emory University
     web_url: https://docs.google.com/presentation/d/1oTsCLaj7-yhYdXtjtp273vPh7d7YVnFQqg8McCkQAQE/edit#slide=id.p13
@@ -120,6 +179,7 @@ experience:
     description: Researched dynamic chemical networks and their importance in organic chemistry
     height: 64
     width: 64
+    date: June 2017 - July 2017
 
 organizations:
   - name: ScottyLabs
@@ -128,6 +188,7 @@ organizations:
     description: Director of Events of the tech entrepreneurial club at CMU. Help plan Web Dev Weekend, a series of web development workshops, and TartanHacks, CMU's largest hackathon
     height: 64
     width: 64
+    date: Fall 2019-Present
 
   - name: Robotics Club
     web_url: https://roboticsclub.org/
@@ -135,6 +196,7 @@ organizations:
     description: Secretary of the robotics club at CMU. Part of the mentorship committee to plan educational activities for our underclassmen
     height: 64
     width: 64
+    date: Fall 2019-Present
 
 events:
   - name: Women in Cybersecurity Conference 2020
@@ -143,6 +205,7 @@ events:
     description: Received a scholarship to attend this conference on cybersecurity but did not go due to COVID-19
     height: 100
     width: 200
+    date: March 2020
   
   - name: Jane Street Women in STEM 2019
     web_url: https://www.linkedin.com/feed/update/urn:li:activity:6562450807134961664/
@@ -150,6 +213,7 @@ events:
     description: Visited Jane Street and learned about quantitative trading among approximately 80 other freshman girls
     height: 75
     width: 100
+    date: July 2019
   
   - name: National Center for Women and Information Technology
     web_url: https://www.aspirations.org/user/119641
@@ -157,20 +221,23 @@ events:
     description: Awarded NCWIT National Honorable Mention and Georgia Affiliate Winner for two years based on my achievements in computing and technology
     height: 64
     width: 64
+    date: April 2018, April 2019
 
-  - name: Georgia Junior Science and Humanities Symposium Oral Presenter 2017
+  - name: Georgia Junior Science and Humanities Symposium Oral Presenter
     web_url: https://drive.google.com/file/d/0BwsuRuLuuDNjV1AtRU91Skh6QUQwVXBoTGlWbDlTQjRoNnNn/view?usp=sharing
     image_url: https://www.georgiacenter.uga.edu/sites/default/files/jshs-logo.jpg
     description: Presented on my research from the Department of Neurosurgery at Emory on optogenetics research
     height: 75
     width: 75
+    date: February 2017
 
-  - name: Georgia Junior Science and Humanities Symposium Oral Presenter 2016
+  - name: Georgia Junior Science and Humanities Symposium Oral Presenter
     web_url: https://drive.google.com/file/d/0BwsuRuLuuDNjaDlfU280blM4N2RqQ3NTUUJpczZmSkhUcHY4/view?usp=sharing
     image_url: https://www.georgiacenter.uga.edu/sites/default/files/jshs-logo.jpg
     description: Presented my data derived from NASA satellites on Coronal Mass Ejections year 1 and won best poster presenter
     height: 75
     width: 75
+    date: February 2016
 
 #topics:
  # - name: Full Stack
