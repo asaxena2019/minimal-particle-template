@@ -4,7 +4,7 @@ Template for my personal website. This includes more sections that you can custo
 
 ## How I Created My Website
 
-I forked this [repo](https://github.com/github/personal-website) and made some changes, which can be found in this repo. For an example, visit [this website](http://anushkasaxena.me/).
+I forked this [repo](https://github.com/github/personal-website) and made some changes, which can be found in this repo. For an example, visit [this website](http://asaxena2019.github.io/).
 
 Examples on how to edit and run the file is below. The files are also commented to explain how to edit.
 
